@@ -23,4 +23,6 @@ export class QuoteInterface {
   files: string;
   reminder_date: Date;
   notes: string;
+  created_by: string;
+  created_at: Date;
 }
