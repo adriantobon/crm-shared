@@ -1,6 +1,6 @@
 import { AccountInterface } from '../accounts/account.interface';
 
-export class QuoteModel {
+export class QuoteInterface {
   // Model
   accountId: AccountInterface;
   // Model?
