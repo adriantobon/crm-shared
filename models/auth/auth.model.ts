@@ -16,6 +16,7 @@ class UserModel {
 }
 
 export class AuthResponseModel {
+  token: string;
   user: UserModel;
   isLoading?: boolean;
   isLoaded?: boolean;
