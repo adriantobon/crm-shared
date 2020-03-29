@@ -1,4 +1,4 @@
-class CatalogValues {
+export class CatalogValues {
   _id: string;
   name: string;
 }
