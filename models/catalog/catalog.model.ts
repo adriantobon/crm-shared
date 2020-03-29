@@ -3,7 +3,7 @@ class CatalogValues {
   name: string;
 }
 
-class CatalogModels {
+export class CatalogModels {
   _id: string;
   name: string;
   model_values: CatalogValues[];
@@ -13,7 +13,5 @@ export class CatalogResponseModel {
   _id: string;
   name: string;
   models: CatalogModels[];
-  isLoading?: boolean;
-  isLoaded?: boolean;
 }
 
