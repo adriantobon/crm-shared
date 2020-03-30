@@ -1,4 +1,4 @@
-type ActionType = 'myAccountRequest' | 'myAccountResponse' |
+export type ActionType = 'myAccountRequest' | 'myAccountResponse' |
                   'myAccountUpdateRequest' |
                   'myAccountUpdatePasswordRequest'
 
