@@ -13,7 +13,6 @@ export class ApiResponseModel<data> {
   statusCode: number;
   message: string;
   response: data;
-  actionType?: ActionType;
   error?: ErrorResponse;
   additionalResponse?: any;
   isLoading?: boolean;
