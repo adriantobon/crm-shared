@@ -1,3 +1,7 @@
+type ActionType = 'myAccountRequest' | 'myAccountResponse' |
+                  'myAccountUpdateRequest' |
+                  'myAccountUpdatePasswordRequest'
+
 export class ApiResponseModel<data> {
   statusCode: number;
   message: string;
@@ -6,4 +10,5 @@ export class ApiResponseModel<data> {
   isLoading?: boolean;
   isLoaded?: boolean;
   error?: any;
+  actionType?: ActionType;
 }
