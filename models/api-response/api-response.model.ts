@@ -1,6 +1,7 @@
-export type ActionType = 'myAccountRequest' | 'myAccountResponse' |
-                  'myAccountUpdateRequest' |
-                  'myAccountUpdatePasswordRequest' | 'myAccountUpdatePasswordResponse'
+export type ActionType =
+  'myAccountRequest' | 'myAccountResponse' |
+  'myAccountUpdateRequest' |
+  'myAccountUpdatePasswordRequest' | 'myAccountUpdatePasswordSuccess' | 'myAccountUpdatePasswordError'
 
 export class ApiResponseModel<data> {
   statusCode: number;
