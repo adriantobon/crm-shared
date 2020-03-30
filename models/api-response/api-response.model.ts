@@ -1,6 +1,6 @@
 export type ActionType = 'myAccountRequest' | 'myAccountResponse' |
                   'myAccountUpdateRequest' |
-                  'myAccountUpdatePasswordRequest' | 'myAccountUpdatePasswordRequest'
+                  'myAccountUpdatePasswordRequest' | 'myAccountUpdatePasswordResponse'
 
 export class ApiResponseModel<data> {
   statusCode: number;
