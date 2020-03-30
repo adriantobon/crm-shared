@@ -1,5 +1,5 @@
 type ErrorResponse = {
-  statusCode: string;
+  statusCode: number;
   error: string;
   message: string;
 }
