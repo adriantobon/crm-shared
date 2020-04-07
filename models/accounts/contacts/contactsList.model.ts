@@ -8,3 +8,9 @@ export class ContactsListResponseModel {
   email: string;
   phone: string;
 }
+
+export class ContactsListRequestModel {
+  name?: string;
+  page?: string;
+  limit?: string;
+}

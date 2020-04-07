@@ -6,3 +6,9 @@ export class AccountsListResponseModel {
   short_name: string;
   status: any;
 }
+
+export class AccountsListRequestModel {
+  name?: string;
+  page?: string;
+  limit?: string;
+}
