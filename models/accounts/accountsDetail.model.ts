@@ -57,3 +57,7 @@ export class AccountsDetailResponseModel {
   twitter_url: string;
   webpage_url: string;
 }
+
+export class AccountsDetailRequestModel {
+  id: string;
+}
