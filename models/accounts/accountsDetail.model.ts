@@ -1,5 +1,5 @@
 // Se tendra que cambiar por el de detail
-import { ContactsListResponseModel } from './contacts/contactsList.model';
+import { ContactsDetailResponseModel } from './contacts/contactsDetail.model';
 import { CatalogValues } from '../catalog/catalog.model';
 
 class CreatedByModel {
@@ -46,7 +46,7 @@ export class AccountsDetailResponseModel {
   client_status: CatalogValues;
   created_by: CreatedByModel;
   created_at: Date;
-  contacts: ContactsListResponseModel[];
+  contacts: ContactsDetailResponseModel[];
   meetings: any[];
   status: CatalogValues;
   activity: AccountActivity[];
