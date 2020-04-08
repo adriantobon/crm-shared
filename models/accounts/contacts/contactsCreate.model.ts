@@ -1,5 +1,4 @@
 export class ContactsCreateRequestModel {
-  created_by: string;
   accountId: string;
   title?: string;
   name: string;
