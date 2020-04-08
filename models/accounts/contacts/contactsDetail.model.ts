@@ -17,7 +17,7 @@ class AccountIdModel {
 export class ContactsDetailResponseModel {
   _id: string;
   accountId: AccountIdModel;
-  title: string;
+  title: CatalogValues;
   name: string;
   lastname_1: string;
   lastname_2: string;
