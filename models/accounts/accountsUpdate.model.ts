@@ -1,0 +1,30 @@
+export class AccountsUpdateRequest {
+  accountId: string;
+  name?: string;
+  social_name?: string;
+  rfc?: string;
+  street?: string;
+  ext_number?: number;
+  int_number?: number;
+  colony?: string;
+  zip_code?: number;
+  country?: string;
+  state?: string;
+  city?: string;
+  phones?: string[];
+  short_name?: string;
+  client_type?: string;
+  origin?: string;
+  business_unit?: string;
+  business_field?: string;
+  business_field_own?: string;
+  aaga_front?: string;
+  client_status?: string;
+  status?: string;
+  facebook_url?: string;
+  instagram_url?: string;
+  linkedin_url?: string;
+  linkedin_is_company_type?: boolean;
+  twitter_url?: string;
+  webpage_url?: string;
+}
