@@ -1,4 +1,4 @@
-export class AccountsUpdateRequest {
+export class AccountsUpdateRequestModel {
   accountId: string;
   name?: string;
   social_name?: string;
